@@ -1,0 +1,24 @@
+{
+  "name": "lets-do-it",
+  "version": "1.0.0",
+  "description": "Lets do it. From psd to html",
+  "main": "index.js",
+  "scripts": {
+    "less": "lessc src/css/less/bootstrap-custom.less src/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cunlla/lets-do-it.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cunlla/lets-do-it/issues"
+  },
+  "homepage": "https://github.com/cunlla/lets-do-it#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "less": "^2.7.2"
+  }
+}
