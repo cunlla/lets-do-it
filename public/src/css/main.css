@@ -6795,7 +6795,9 @@ fieldset[disabled] .btn-success.focus {
 }
 .main .header {
   background: url('../assets/header.png') 100% 100% no-repeat;
+  background-size: cover;
 }
 .main .footer {
   background: url('../assets/footer.png') 100% 100% no-repeat;
+  background-size: cover;
 }
