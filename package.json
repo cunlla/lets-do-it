@@ -4,7 +4,7 @@
   "description": "Lets do it. From psd to html",
   "main": "index.js",
   "scripts": {
-    "less": "lessc public/src/css/less/bootstrap-custom.less public/src/css/main.css"
+    "less": "lessc src/css/less/bootstrap-custom.less src/css/main.css"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
     "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
     "less": "^2.7.2"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }

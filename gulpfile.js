@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 // find example of task which can run comand in the console
 gulp.task('serve', function(){
     browserSync.init({
-        server: 'public'
+        server: '.'
     });
 
         
