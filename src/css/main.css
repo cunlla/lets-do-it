@@ -8972,6 +8972,7 @@ fieldset[disabled] .btn-success.focus {
   background: #cdcbcb;
   padding: 0px 5px 0px 5px;
   position: relative;
+  color: #9E9E9E;
 }
 .profile dl dt .btn-link {
   color: green;
@@ -8982,6 +8983,13 @@ fieldset[disabled] .btn-success.focus {
   line-height: 14px;
   padding-top: 3px;
   padding-bottom: 1px;
+  padding-right: 5px;
+}
+.profile dl dt .btn-link:hover {
+  text-decoration: none;
+}
+.profile dl dt .btn-link:focus {
+  outline: none;
 }
 .profile dl dd {
   padding: 0px 15px 0px 15px;
