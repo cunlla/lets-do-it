@@ -8971,6 +8971,17 @@ fieldset[disabled] .btn-success.focus {
 .profile dl dt {
   background: #cdcbcb;
   padding: 0px 5px 0px 5px;
+  position: relative;
+}
+.profile dl dt .btn-link {
+  color: green;
+  text-transform: uppercase;
+  position: absolute;
+  right: 5px;
+  font-size: 14px;
+  line-height: 14px;
+  padding-top: 3px;
+  padding-bottom: 1px;
 }
 .profile dl dd {
   padding: 0px 15px 0px 15px;
